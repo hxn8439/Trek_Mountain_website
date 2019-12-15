@@ -1,0 +1,102 @@
+/*
+This style sheet script provides a layout presentation setting with other script files. 
+*/
+/* 
+    Created on : Mar 2, 2018, 9:48:31 PM
+    Author     : regisstudent
+*/
+
+* {
+  font-family:"Arial Black", Gadget, sans-serif;
+  font-size  :16pt;
+}
+
+body {
+  width     :920px;
+  margin    :30px auto;
+  background:#E0FFFF;
+  border    :1px solid #888;
+}
+
+html {
+  background:#dff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :20px;
+  -moz-box-shadow   :4px 4px 4px #888;
+  -webkit-box-shadow:4px 4px 4px #888;
+  box-shadow        :4px 4px 4px #888;
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+li a:hover, .button:hover {
+  color:teal;
+}
+ 
+.appname {
+  text-align :center;
+  background :#4CF;
+  color      :#36F;
+  font-family:Times New Roman;
+  font-size  :20pt;
+  padding    :6px;
+}
+
+.fieldname {
+  float:left;
+  width:180px;
+}
+
+.main {
+  margin-left:60px;
+}
+
+.info {
+  background :lightgray;
+  color      :navy;
+	border     :1px solid black;
+	padding    :6px 10px;
+  margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  padding           :4px 6px;
+  border            :1px solid #777;
+  background        :#6DD;
+	color             :#57C;
+  margin-right      :10px;
+	border-radius     :7px;
+	-moz-box-shadow   :4px 4px 4px #888;
+	-webkit-box-shadow:4px 4px 4px #888;
+	box-shadow        :4px 4px 4px #888;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:crimson;
+}
+
+.available {
+  color:green;
+}
+
+.wind {
+  font-style:italic;
+  color     :#89a189;
+}
+
+#logo {
+  font-family:Times New Roman;
+  font-weight:bold;
+  font-style:italic;
+  font-size :120px;
+}
